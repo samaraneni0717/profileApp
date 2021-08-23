@@ -1,0 +1,14 @@
+
+
+GraphQL endpoint: https://3mhbamng7rh2jlsdviaf3zq5dm.appsync-api.us-east-1.amazonaws.com/graphql
+
+steps:
+https://aws.amazon.com/blogs/mobile/use-existing-cognito-resources-for-your-amplify-api-storage-and-more/
+
+Issues Resolved
+
+I looked around and found that the package 'aws-amplify-angular' doesn't really work with Angular 9 and above. I have even tried with 11 and it does the same.
+
+The solution is to migrate from 'aws-amplify-angular' to '@aws-amplify/ui-angular'
+
+Steps for integration are available here - https://docs.amplify.aws/ui/auth/authenticator/q/framework/angular
