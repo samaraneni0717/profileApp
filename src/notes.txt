@@ -9,6 +9,6 @@ Issues Resolved
 
 I looked around and found that the package 'aws-amplify-angular' doesn't really work with Angular 9 and above. I have even tried with 11 and it does the same.
 
-The solution is to migrate from 'aws-amplify-angular' to '@aws-amplify/ui-angular' 
+The solution is to migrate from 'aws-amplify-angular' to '@aws-amplify/ui-angular'  
 
 Steps for integration are available here - https://docs.amplify.aws/ui/auth/authenticator/q/framework/angular
