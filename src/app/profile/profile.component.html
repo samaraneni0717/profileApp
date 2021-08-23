@@ -1,1 +1,19 @@
-<p>profile works!</p>
+
+<div class="example-form">
+    <mat-form-field class="example-full-width" appearance="fill">
+      <mat-label>Id</mat-label>
+      <input matInput placeholder="ID" [(ngModel)]="userId">
+    </mat-form-field>
+  
+    <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>Name</mat-label>
+        <input matInput placeholder="Name"  [(ngModel)]="userName">
+    </mat-form-field>
+    <mat-form-field class="example-full-width" appearance="fill">
+        <mat-label>About me</mat-label>
+        <textarea matInput placeholder="Ex. I like panipuri" [(ngModel)]="userInterests"></textarea>
+      </mat-form-field>
+</div>
+<div class="example-button-row">
+    <button mat-button (click)="updateUserInfo()">Basic</button>
+    </div>

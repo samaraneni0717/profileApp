@@ -7,6 +7,10 @@ import { AuthComponent } from './auth/auth.component';
 import { ProfileComponent } from './profile/profile.component';
 import {AmplifyUIAngularModule} from "@aws-amplify/ui-angular";
 import {AmplifyService} from 'aws-amplify-angular'
+import { FormsModule } from '@angular/forms';
+import {MatInputModule} from '@angular/material/input';
+import { CommonModule } from '@angular/common';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,7 +20,11 @@ import {AmplifyService} from 'aws-amplify-angular'
   imports: [
     BrowserModule,
     AppRoutingModule,
-    AmplifyUIAngularModule
+    AmplifyUIAngularModule,
+    FormsModule,
+    MatInputModule,
+    CommonModule,
+    BrowserAnimationsModule
   ],
   providers: [AmplifyService],
   bootstrap: [AppComponent]
